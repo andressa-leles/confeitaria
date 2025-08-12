@@ -10,43 +10,36 @@
         <link rel="stylesheet" href="./css/style.css">
         <title>Leles Confeitaria</title>
     </head>
-    <body>
-        <div class="container-logo">
-            <img src="./img/logo-leles.png" alt="logo">
+  <body>
+    <div class="container-logo">
+        <img src="./img/logo-leles.png" alt="Logo Leles Doceria">
+    </div>
+    <header class="header-bg">
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="#bolos">Bolos</a></li>
+                    <li><a href="#bombom">Bombom</a></li>
+                    <li><a href="#brownie">Brownie</a></li>
+                    <li><a href="#fatias">Fatias de Bolo</a></li>
+                    <li><a href="#bebidas">Bebidas</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
         </div>
-        <header class="header-bg">
-            <div class="header">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#bolos">Bolos</a>
-                        </li>
-                        <li>
-                            <a href="#bombom">Bombom</a>
-                        </li>
-                        <li>
-                            <a href="#brownie">Brownie</a>
-                        </li>
-                        <li>
-                            <a href="#fatias">Fatias de Bolo</a>
-                        </li>
-                        <li>
-                            <a href="#bebidas">Bebidas</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    </header>
+    <main>
         <div class="search-container">
             <div class="search-box">
                 <i class="fa fa-search"></i>
                 <input type="text" placeholder="Digite para buscar um item">
             </div>
         </div>
+
         <div class="container-titulo">
-            <h2 class="titulo">bolos</h2>
+            <h2 class="titulo" id="bolos">Bolos</h2>
         </div>
-        <section class="grid-section" id="bolos">
+        <section class="grid-section">
             <div class="item">
                 <a href="#"><img src="/img/bolo-cenoura-m.jpeg" alt="Bolo vulcão de cenoura médio"></a>
                 <p>Bolo vulcão de cenoura com cobertura de chocolate M</p>
@@ -65,44 +58,45 @@
         </section>
 
         <div class="container-titulo">
-            <h2 class="titulo">fatias de bolo</h2>
+            <h2 class="titulo" id="fatias">Fatias de Bolo</h2>
         </div>
-        <section class="grid-section" id="fatias">
+        <section class="grid-section">
             <div class="item">
-                <a href="#"><img src="/img/fatia-abacaxi.jpeg" alt="fatia Abacaxi"></a>
+                <a href="#"><img src="/img/fatia-abacaxi.jpeg" alt="Fatia de bolo de abacaxi"></a>
                 <p>Bolo Fatia de Abacaxi</p>
                 <span>R$16,00</span>
             </div>
             <div class="item">
-                <a href="#"><img src="/img/fatia-maracuja.jpeg" alt="fatia Maracujá"></a>
+                <a href="#"><img src="/img/fatia-maracuja.jpeg" alt="Fatia de bolo de maracujá"></a>
                 <p>Bolo Fatia de Maracujá</p>
                 <span>R$16,00</span>
             </div>
             <div class="item">
-                <a href="#"><img src="/img/fatia-prestigio.jpeg" alt="fatia Prestígio"></a>
+                <a href="#"><img src="/img/fatia-prestigio.jpeg" alt="Fatia de bolo de prestígio"></a>
                 <p>Bolo Fatia de Prestígio</p>
                 <span>R$16,00</span>
             </div>
             <div class="item">
-                <a href="#"><img src="/img/fatia-ninho-nutella.jpeg" alt="fatia ninho e nutella"></a>
+                <a href="#"><img src="/img/fatia-ninho-nutella.jpeg" alt="Fatia de bolo de ninho com nutella"></a>
                 <p>Bolo de Ninho com Nutella</p>
                 <span>R$16,00</span>
             </div>
             <div class="item">
-                <a href="#"><img src="/img/fatia-redvelvet.jpeg" alt="fatia Red Velvet"></a>
+                <a href="#"><img src="/img/fatia-redvelvet.jpeg" alt="Fatia de bolo Red Velvet"></a>
                 <p>Bolo Fatia Red Velvet</p>
                 <span>R$16,00</span>
             </div>
             <div class="item">
-                <a href="#"><img src="/img/fatia-chocolate.jpeg" alt="fatia chocolate"></a>
+                <a href="#"><img src="/img/fatia-chocolate.jpeg" alt="Fatia de bolo de chocolate"></a>
                 <p>Bolo Fatia de Chocolate</p>
                 <span>R$16,00</span>
             </div>
         </section>
+
         <div class="container-titulo">
-            <h1 class="titulo">Bombom</h1>
+            <h2 class="titulo" id="bombom">Bombom</h2>
         </div>
-        <section class="grid-section" id="bombom">
+        <section class="grid-section">
             <div class="item">
                 <a href="#"><img src="/img/bombom.jpeg" alt="Coxinha de brownie com morango"></a>
                 <p>Coxinha de Brownie com Morango</p>
@@ -124,10 +118,11 @@
                 <span>R$14,00</span>
             </div>
         </section>
+
         <div class="container-titulo">
-            <h1 class="titulo">Brownie</h1>
+            <h2 class="titulo" id="brownie">Brownie</h2>
         </div>
-        <section class="grid-section" id="brownie">
+        <section class="grid-section">
             <div class="item">
                 <a href="#"><img src="/img/brownie.jpeg" alt="Brownie tradicional"></a>
                 <p>Brownie Tradicional</p>
@@ -154,10 +149,11 @@
                 <span>R$10,00</span>
             </div>
         </section>
+
         <div class="container-titulo">
-            <h1 class="titulo">Bebidas</h1>
+            <h2 class="titulo" id="bebidas">Bebidas</h2>
         </div>
-        <section class="grid-section" id="bebidas">  
+        <section class="grid-section">
             <div class="item">
                 <a href="#"><img src="/img/coca-zero.jpeg" alt="Garrafa de Coca-Cola Zero"></a>
                 <p>Coca-Cola Zero</p>
@@ -175,10 +171,10 @@
             </div>
         </section>
 
-         <div class="container-titulo">
-            <h1 class="titulo">faq</h1>
+        <div class="container-titulo">
+            <h2 class="titulo" id="faq">FAQ</h2>
         </div>
-        <section class="grid-section " id="faq">
+        <section class="grid-section">
             <dl class="faq-lista js-accordion">
                 <dt>Vocês fazem entregas?</dt>
                 <dd>Sim! Entregamos em toda a região de [sua cidade/bairro]. O valor da taxa varia de acordo com a distância.</dd>
@@ -192,10 +188,11 @@
                 <dd>Aceitamos PIX, cartão de crédito/débito e dinheiro.</dd>
             </dl>
         </section>
+    </main>
 
-        <footer class="copy">
-            <p>Todos os direitos reservados.</p>
-        </footer>
-        <script src="./script.js"></script>
-    </body>
+    <footer class="copy">
+        <p>Todos os direitos reservados.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
 </html>
