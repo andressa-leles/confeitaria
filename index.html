@@ -1,198 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/style.css">
-        <title>Leles Confeitaria</title>
-    </head>
-  <body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Leles Confeitaria</title>
+</head>
+<body>
+  
+  <!-- Cabeçalho -->
+  <header class="header-bg">
     <div class="container-logo">
-        <img src="./img/logo-leles.png" alt="Logo Leles Doceria">
+      <img src="./img/logo-leles.png" alt="Logo da Leles Confeitaria">
     </div>
-    <header class="header-bg">
-        <div class="header">
-            <nav>
-                <ul>
-                    <li><a href="#bolos">Bolos</a></li>
-                    <li><a href="#bombom">Bombom</a></li>
-                    <li><a href="#brownie">Brownie</a></li>
-                    <li><a href="#fatias">Fatias de Bolo</a></li>
-                    <li><a href="#bebidas">Bebidas</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="search-container">
-            <div class="search-box">
-                <i class="fa fa-search"></i>
-                <input type="text" placeholder="Digite para buscar um item">
-            </div>
-        </div>
+    <nav class="header" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#bolos">Bolos</a></li>
+        <li><a href="#bombom">Bombom</a></li>
+        <li><a href="#brownie">Brownie</a></li>
+        <li><a href="#fatias">Fatias de Bolo</a></li>
+        <li><a href="#bebidas">Bebidas</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <div class="container-titulo">
-            <h2 class="titulo" id="bolos">Bolos</h2>
-        </div>
-        <section class="grid-section">
-            <div class="item">
-                <a href="#"><img src="/img/bolo-cenoura-m.jpeg" alt="Bolo vulcão de cenoura médio"></a>
-                <p>Bolo vulcão de cenoura com cobertura de chocolate M</p>
-                <span>R$32,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/bolo-cenoura-G.jpeg" alt="Bolo vulcão de cenoura grande"></a>
-                <p>Bolo vulcão de cenoura com cobertura de chocolate G</p>
-                <span>R$50,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/mini-bolo-cenoura.jpeg" alt="Mini bolo de cenoura com chocolate"></a>
-                <p>Mini Bolo de Cenoura com Chocolate</p>
-                <span>R$19,00</span>
-            </div>
-        </section>
+  <main>
+    <!-- Barra de busca -->
+    <section class="search-container" aria-label="Busca de produtos">
+      <div class="search-box">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <input type="search" placeholder="Digite para buscar um item" aria-label="Buscar produto">
+      </div>
+    </section>
 
-        <div class="container-titulo">
-            <h2 class="titulo" id="fatias">Fatias de Bolo</h2>
-        </div>
-        <section class="grid-section">
-            <div class="item">
-                <a href="#"><img src="/img/fatia-abacaxi.jpeg" alt="Fatia de bolo de abacaxi"></a>
-                <p>Bolo Fatia de Abacaxi</p>
-                <span>R$16,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/fatia-maracuja.jpeg" alt="Fatia de bolo de maracujá"></a>
-                <p>Bolo Fatia de Maracujá</p>
-                <span>R$16,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/fatia-prestigio.jpeg" alt="Fatia de bolo de prestígio"></a>
+    <!-- Categoria: Bolos -->
+    <section aria-labelledby="bolos">
+      <div class="container-titulo">
+        <h2 class="titulo" id="bolos">Bolos</h2>
+      </div>
+      <div class="grid-section">
+        <article class="item">
+          <a href="#"><img src="/img/bolo-cenoura-m.jpeg" alt="Bolo vulcão de cenoura médio com cobertura de chocolate"></a>
+          <p>Bolo vulcão de cenoura com cobertura de chocolate M</p>
+          <span>R$32,00</span>
+        </article>
+        <article class="item">
+          <a href="#"><img src="/img/bolo-cenoura-G.jpeg" alt="Bolo vulcão de cenoura grande com cobertura de chocolate"></a>
+          <p>Bolo vulcão de cenoura com cobertura de chocolate G</p>
+          <span>R$50,00</span>
+        </article>
+        <article class="item">
+          <a href="#"><img src="/img/mini-bolo-cenoura.jpeg" alt="Mini bolo de cenoura com chocolate"></a>
+          <p>Mini Bolo de Cenoura com Chocolate</p>
+          <span>R$19,00</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- Categoria: Fatias -->
+    <section aria-labelledby="fatias">
+      <div class="container-titulo">
+        <h2 class="titulo" id="fatias">Fatias de Bolo</h2>
+      </div>
+      <div class="grid-section">
+        <article class="item">
+          <a href="#"><img src="/img/fatia-abacaxi.jpeg" alt="Fatia de bolo de abacaxi"></a>
+          <p>Bolo Fatia de Abacaxi</p>
+          <span>R$16,00</span>
+        </article>
+        <article class="item">
+          <a href="#"><img src="/img/fatia-maracuja.jpeg" alt="Fatia de bolo de maracujá"></a>
+          <p>Bolo Fatia de Maracujá</p>
+          <span>R$16,00</span>
+        </article>
+        <article class="item">
+          <a href="#"><img src="/img/fatia-prestigio.jpeg" alt="Fatia de bolo de prestígio"></a>
                 <p>Bolo Fatia de Prestígio</p>
-                <span>R$16,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/fatia-ninho-nutella.jpeg" alt="Fatia de bolo de ninho com nutella"></a>
-                <p>Bolo de Ninho com Nutella</p>
-                <span>R$16,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/fatia-redvelvet.jpeg" alt="Fatia de bolo Red Velvet"></a>
-                <p>Bolo Fatia Red Velvet</p>
-                <span>R$16,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/fatia-chocolate.jpeg" alt="Fatia de bolo de chocolate"></a>
+          <span>R$16,00</span>
+        </article>
+        <article class="item">
+          <a href="#"><img src="/img/fatia-chocolate.jpeg" alt="Fatia de bolo de prestígio"></a>
                 <p>Bolo Fatia de Chocolate</p>
-                <span>R$16,00</span>
-            </div>
-        </section>
+          <span>R$16,00</span>
+        </article>
+        <article class="item">
+           <a href="#"><img src="/img/fatia-ninho-nutella.jpeg" alt="Fatia de bolo de ninho com nutella"></a>
+            <p>Bolo Fatia de Ninho com Nutella</p>
+          <span>R$16,00</span>
+        </article>
+        <article class="item">
+           <a href="#"><img src="/img/fatia-redvelvet.jpeg" alt="Fatia de bolo Red Velvet"></a>
+            <p>Bolo Fatia Red Velvet</p>
+          <span>R$16,00</span>
+        </article>
 
-        <div class="container-titulo">
-            <h2 class="titulo" id="bombom">Bombom</h2>
-        </div>
-        <section class="grid-section">
-            <div class="item">
-                <a href="#"><img src="/img/bombom.jpeg" alt="Coxinha de brownie com morango"></a>
+      </div>
+    </section>
+
+    <!-- Categoria: Bombom -->
+    <section aria-labelledby="bombom">
+      <div class="container-titulo">
+        <h2 class="titulo" id="bombom">Bombom</h2>
+      </div>
+      <div class="grid-section">
+        <article class="item">
+          <a href="#"><img src="/img/bombom.jpeg" alt="Coxinha de brownie com morango"></a>
                 <p>Coxinha de Brownie com Morango</p>
-                <span>R$14,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/uva.jpeg" alt="Bombom de Ninho com uva e chocolate"></a>
+          <span>R$6,00</span>
+        </article>
+        <article class="item">
+         <a href="#"><img src="/img/uva.jpeg" alt="Bombom de Ninho com uva e chocolate"></a>
                 <p>Bombom de Ninho, uva e chocolate</p>
-                <span>R$14,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/kinder.jpeg" alt="Brigadeiro com Kinder Bueno"></a>
+          <span>R$6,00</span>
+        </article>
+        <article class="item">
+          <a href="#"><img src="/img/kinder.jpeg" alt="Brigadeiro com Kinder Bueno"></a>
                 <p>Brigadeiro com Kinder Bueno</p>
-                <span>R$14,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/amendoim-e-nutella.jpeg" alt="Coxinha de brigadeiro com morango, amendoim e nutella"></a>
+          <span>R$6,00</span>
+        </article>
+         <article class="item">
+          <a href="#"><img src="/img/amendoim-e-nutella.jpeg" alt="Coxinha de brigadeiro com morango, amendoim e nutella"></a>
                 <p>Coxinha de brigadeiro com Morango, Amendoim e Nutella</p>
-                <span>R$14,00</span>
-            </div>
-        </section>
+          <span>R$6,00</span>
+        </article>
+      </div>
+    </section>
 
-        <div class="container-titulo">
-            <h2 class="titulo" id="brownie">Brownie</h2>
-        </div>
-        <section class="grid-section">
-            <div class="item">
-                <a href="#"><img src="/img/brownie.jpeg" alt="Brownie tradicional"></a>
+    <!-- Categoria: Brownie -->
+    <section aria-labelledby="brownie">
+      <div class="container-titulo">
+        <h2 class="titulo" id="brownie">Brownie</h2>
+      </div>
+      <div class="grid-section">
+        <article class="item">
+          <a href="#"><img src="/img/brownie.jpeg" alt="Brownie tradicional"></a>
                 <p>Brownie Tradicional</p>
-                <span>R$8,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/brownie-ninho.jpeg" alt="Brownie de ninho"></a>
+          <span>R$8,00</span>
+        </article>
+        <article class="item">
+           <a href="#"><img src="/img/brownie-ninho.jpeg" alt="Brownie de ninho"></a>
                 <p>Brownie de Ninho</p>
-                <span>R$10,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/brownie-ninho-nutella.jpeg" alt="Brownie de ninho com nutella"></a>
+          <span>R$10,00</span>
+        </article>
+        <article class="item">
+          <a href="#"><img src="/img/brownie-ninho-nutella.jpeg" alt="Brownie de ninho com nutella"></a>
                 <p>Brownie Ninho e Nutella</p>
-                <span>R$10,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/brownie-doce-de-leite.jpeg" alt="Brownie de doce de leite"></a>
+          <span>R$10,00</span>
+        </article>
+        <article class="item">
+          <a href="#"><img src="/img/brownie-doce-de-leite.jpeg" alt="Brownie de doce de leite"></a>
                 <p>Brownie de Doce de Leite</p>
-                <span>R$10,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/brownie-brigadeiro.jpeg" alt="Brownie de brigadeiro"></a>
+          <span>R$10,00</span>
+        </article>
+        <article class="item">
+          <a href="#"><img src="/img/brownie-brigadeiro.jpeg" alt="Brownie de brigadeiro"></a>
                 <p>Brownie de Brigadeiro</p>
-                <span>R$10,00</span>
-            </div>
-        </section>
+          <span>R$10,00</span>
+        </article>
+      </div>
+    </section>
 
-        <div class="container-titulo">
-            <h2 class="titulo" id="bebidas">Bebidas</h2>
-        </div>
-        <section class="grid-section">
-            <div class="item">
-                <a href="#"><img src="/img/coca-zero.jpeg" alt="Garrafa de Coca-Cola Zero"></a>
-                <p>Coca-Cola Zero</p>
-                <span>R$7,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/coca-original.jpeg" alt="Garrafa de Coca-Cola Original"></a>
-                <p>Coca-Cola Original</p>
-                <span>R$7,00</span>
-            </div>
-            <div class="item">
-                <a href="#"><img src="/img/agua.jpeg" alt="Garrafa de água com gás"></a>
-                <p>Água com gás</p>
-                <span>R$4,00</span>
-            </div>
-        </section>
+    <!-- Categoria: Bebidas -->
+    <section aria-labelledby="bebidas">
+      <div class="container-titulo">
+        <h2 class="titulo" id="bebidas">Bebidas</h2>
+      </div>
+      <div class="grid-section">
+        <article class="item">
+          <a href="#"><img src="/img/coca-original.jpeg" alt="coca cola"></a>
+          <p>Coca-Cola Original</p>
+          <span>R$7,00</span>
+        </article>
+        <article class="item">
+          <a href="#"><img src="/img/coca-zero.jpeg" alt="coca cola zero"></a>
+          <p>Coca-Cola Zero</p>
+          <span>R$7,00</span>
+        </article>
+        <article class="item">
+          <a href="#"><img src="/img/agua.jpeg" alt="agua"></a>
+          <p>Água com gás</p>
+          <span>R$4,00</span>
+        </article>
+      </div>
+    </section>
 
-        <div class="container-titulo">
-            <h2 class="titulo" id="faq">FAQ</h2>
-        </div>
-        <section class="grid-section">
-            <dl class="faq-lista js-accordion">
-                <dt>Vocês fazem entregas?</dt>
-                <dd>Sim! Entregamos em toda a região de [sua cidade/bairro]. O valor da taxa varia de acordo com a distância.</dd>
-                <dt>Preciso encomendar com quanto tempo de antecedência?</dt>
-                <dd>Para bolos e doces personalizados, pedimos pelo menos 3 dias de antecedência. Para itens do cardápio fixo, aceitamos pedidos no mesmo dia, conforme disponibilidade.</dd>
-                <dt>Vocês fazem bolos personalizados?</dt>
-                <dd>Fazemos sim! Trabalhamos com diferentes temas, sabores e tamanhos. Entre em contato para um orçamento.</dd>
-                <dt>Posso escolher o recheio e a cobertura?</dt>
-                <dd>Claro! Temos várias opções de recheios e coberturas para você combinar do seu jeito.</dd>
-                <dt>Quais formas de pagamento vocês aceitam?</dt>
-                <dd>Aceitamos PIX, cartão de crédito/débito e dinheiro.</dd>
-            </dl>
-        </section>
-    </main>
+    <!-- FAQ -->
+    <section aria-labelledby="faq">
+      <div class="container-titulo">
+        <h2 class="titulo" id="faq">FAQ</h2>
+      </div>
+      <div class="grid-section">
+        <dl class="faq-lista js-accordion">
+          <dt>Vocês fazem entregas?</dt>
+          <dd>Sim! Entregamos em toda a região de [sua cidade/bairro]. O valor da taxa varia de acordo com a distância.</dd>
+          <dt>Preciso encomendar com quanto tempo de antecedência?</dt>
+          <dd>Para bolos e doces personalizados, pedimos pelo menos 3 dias de antecedência. Para itens do cardápio fixo, aceitamos pedidos no mesmo dia, conforme disponibilidade.</dd>
+          <dt>Vocês fazem bolos personalizados?</dt>
+          <dd>Fazemos sim! Trabalhamos com diferentes temas, sabores e tamanhos. Entre em contato para um orçamento.</dd>
+          <dt>Posso escolher o recheio e a cobertura?</dt>
+          <dd>Claro! Temos várias opções de recheios e coberturas para você combinar do seu jeito.</dd>
+          <dt>Quais formas de pagamento vocês aceitam?</dt>
+          <dd>Aceitamos PIX, cartão de crédito/débito e dinheiro.</dd>
+        </dl>
+      </div>
+    </section>
+  </main>
 
-    <footer class="copy">
-        <p>Todos os direitos reservados.</p>
-    </footer>
-    <script src="./script.js"></script>
+  <!-- Rodapé -->
+  <footer class="copy">
+    <p>Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
