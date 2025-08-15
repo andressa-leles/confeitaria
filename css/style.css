@@ -23,6 +23,10 @@ img{
     max-width: 100%;
 }
 
+section {
+    scroll-margin-top: 10px;
+}
+
 .container-logo{
     background-color: #F2F2EC;
     margin-bottom: 60px;
@@ -185,6 +189,9 @@ img{
 }
 
 @media(max-width: 700px){
+    section{
+        scroll-margin-top: 5px;
+    }
     .container-logo{
         margin-bottom: 30px;
     }
