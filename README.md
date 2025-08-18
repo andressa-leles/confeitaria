@@ -19,5 +19,6 @@ O objetivo principal deste projeto é o aprimoramento de habilidades em:
 
 ## 📸 Preview
 
-![Gif do Projeto](https://github.com/andressa-leles/confeitaria/blob/master/assets/77e024c6-380e-404a-9218-d8e93ce577c4)
+![Gif do Projeto](![confeitaria_gif](https://github.com/user-attachments/assets/fa1393e9-ddb5-44f4-add4-4fc496fec77f)
+)
 
