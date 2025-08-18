@@ -19,4 +19,4 @@ O objetivo principal deste projeto é o aprimoramento de habilidades em:
 
 ## 📸 Preview
 
-![Gif do Projeto]([https://github.com/andressa-leles/confeitaria/blob/master/confeitaria_gif.gif?raw=true](https://github.com/andressa-leles/confeitaria/blob/master/confeitaria.gif?raw=true))
+![Projeto Confeitaria](https://github.com/andressa-leles/confeitaria/blob/master/confeitaria.gif?raw=true)
