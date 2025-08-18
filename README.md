@@ -19,5 +19,6 @@ O objetivo principal deste projeto é o aprimoramento de habilidades em:
 
 ## 📸 Preview
 
-![image](![confeitaria_gif](https://github.com/user-attachments/assets/dc9c3c22-6957-4bb6-a8c6-4d56a8690b5a)
+![Gif do Projeto](![confeitaria_gif](https://github.com/user-attachments/assets/77eb24c6-398e-404a-b218-d8e33ce577ec)
 )
+
